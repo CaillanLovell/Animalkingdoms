@@ -16,7 +16,9 @@ public class AnimalsTest {
     @Test
     public void testAge(){
         Bat testBat = new Bat();
-        assertEquals(4, testBat.getSize(), "The expected size fo the bat was wrong");
+        testBat.getAge();
+        testBat.getAge();
+        assertEquals(4, testBat.age, "The expected age fo the bat was wrong");
     }
 
 }
