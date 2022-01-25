@@ -1,10 +1,13 @@
 package Animalkingdom.test;
+import Animalkingdom.Bat;
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+public class AnimalsTest {
 
-class AnimalsTest {
-
-    @org.junit.jupiter.api.Test
-    void eat() {
+    public void testAge(){
+        Bat testBat = new Bat(2,2);
+        assertEquals(2, testBat.getSize(), "The expected weight of the dog was wrong");
     }
 }
