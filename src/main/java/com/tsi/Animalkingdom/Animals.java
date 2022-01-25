@@ -5,7 +5,6 @@ public abstract class Animals {
     ////////////////////Attributes////////////////////////
     public static int age = 4;
     public static int size = 4;
-    public static String name = "Vlad";
 
 
     ////////////////////Constructors//////////////////////

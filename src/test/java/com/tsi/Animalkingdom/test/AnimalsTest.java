@@ -45,8 +45,8 @@ public class AnimalsTest {
     @Test
     public void testBat(){
         Bat testBat = new Bat();
-        testBat.BatName();
-        assertEquals("Vlad", testBat.BatName(), "The bat is not Vlad");
+        assertEquals("Vlad", testBat.BatName("Vampire"), "The bat is not Vlad");
+        assertEquals("Peaches", testBat.BatName("Fruit"), "The bat is not Peaches");
     }
 
     @Test

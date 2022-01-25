@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.tsi.Animalkingdom.test.AnimalsTest" time="0.022" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.tsi.Animalkingdom.test.AnimalsTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
@@ -62,10 +62,10 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSize" time="0.016"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBat" time="0.006"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSizegain" time="0"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testPoo" time="0"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBaby" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBat" time="0.005"/>
   <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testAge" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testPoo" time="0"/>
   <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testDiet" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBaby" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSizegain" time="0"/>
 </testsuite>

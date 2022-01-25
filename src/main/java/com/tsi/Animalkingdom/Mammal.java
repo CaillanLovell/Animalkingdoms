@@ -20,6 +20,8 @@ public abstract class Mammal extends Animals{
 
     public abstract String  Reproduction();
 
+    public abstract String Warmblooded();
+
 
 
 }
