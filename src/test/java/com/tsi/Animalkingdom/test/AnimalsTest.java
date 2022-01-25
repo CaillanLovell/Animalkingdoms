@@ -1,5 +1,4 @@
 package com.tsi.Animalkingdom.test;
-import com.tsi.Animalkingdom.Animals;
 import com.tsi.Animalkingdom.Bat;
 import org.junit.jupiter.api.Test;
 
@@ -17,8 +16,16 @@ public class AnimalsTest {
     public void testAge(){
         Bat testBat = new Bat();
         testBat.getAge();
-        testBat.getAge();
+        testBat.setAge();
         assertEquals(4, testBat.age, "The expected age fo the bat was wrong");
     }
+    @Test
+    public void testPoo(){
+        Bat testBat = new Bat();
+        testBat.excretion();
+        assertEquals("I excreted", testBat.excretion(), "The bat does not excrete");
+    }
+
+
 
 }
