@@ -30,8 +30,8 @@ public class AnimalsTest {
     @Test
     public void testDiet(){
         Bat testBat = new Bat();
-        testBat.eat("");
-        assertEquals("I like to suck blood!", testBat.eat("blood"), "The bat does not excrete");
+        testBat.Diet("");
+        assertEquals("I like to suck blood!", testBat.Diet("blood"), "The bat does not excrete");
     }
 
     @Test
@@ -47,6 +47,17 @@ public class AnimalsTest {
         testBat.BatName();
         assertEquals("Vlad", testBat.BatName(), "The bat is not Vlad");
     }
+
+    @Test
+    public void gainingSize(){
+        Bat testBat = new Bat();
+        testBat.getSize();
+        testBat.setSize();
+        testBat.eat();
+        assertEquals(5, testBat.size, "The bat did not get bigger");
+    }
+
+
 
 
 

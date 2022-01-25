@@ -35,4 +35,8 @@ public abstract class Animals {
         this.size = size;
     }
 
+    public int eat(){
+        size ++;
+        return size;
+    }
 }
