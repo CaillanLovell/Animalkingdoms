@@ -10,13 +10,12 @@ public class Bat extends Mammal {
 
         return ("I like to suck blood!");
     }
-//
-//    public void BatName()
-//    {
-//
-//        System.out.println("My name is "+ name);
-//    }
-//
+
+    public String BatName()
+    {
+        return" My name is "+ name;
+    }
+
     public String Reproduction(){
 
         return("Live birth");

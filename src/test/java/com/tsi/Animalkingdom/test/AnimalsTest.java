@@ -1,5 +1,6 @@
 package com.tsi.Animalkingdom.test;
 import com.tsi.Animalkingdom.Bat;
+import com.tsi.Animalkingdom.Main;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -43,10 +44,15 @@ public class AnimalsTest {
     @Test
     public void famousBat(){
         Bat testBat = new Bat();
-
-        assertEquals("Live birth", testBat.Reproduction(), "The bat does not excrete");
+        testBat.BatName();
+        assertEquals("Vlad", testBat.BatName(), "The bat is not Vlad");
     }
 
 
 
-}
+ }
+
+
+
+
+
