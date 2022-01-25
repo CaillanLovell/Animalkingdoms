@@ -36,7 +36,7 @@ public abstract class Animals {
     }
 
     public int eat(){
-        size ++;
-        return size;
+        int newsize = size +1 ;
+        return newsize;
     }
 }

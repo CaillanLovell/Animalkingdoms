@@ -61,11 +61,11 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSize" time="0.013"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testPoo" time="0.005"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testAge" time="0"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testDiet" time="0"/>
-  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBaby" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBaby" time="0.018"/>
   <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSizegain" time="0"/>
   <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testBat" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testDiet" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testSize" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testPoo" time="0"/>
+  <testcase classname="com.tsi.Animalkingdom.test.AnimalsTest" name="com.tsi.Animalkingdom.test.AnimalsTest.testAge" time="0"/>
 </testsuite>

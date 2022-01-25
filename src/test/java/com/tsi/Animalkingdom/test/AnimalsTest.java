@@ -1,4 +1,5 @@
 package com.tsi.Animalkingdom.test;
+import com.tsi.Animalkingdom.Animals;
 import com.tsi.Animalkingdom.Bat;
 import com.tsi.Animalkingdom.Main;
 import org.junit.jupiter.api.Test;
@@ -11,14 +12,14 @@ public class AnimalsTest {
         Bat testBat = new Bat();
         testBat.getSize();
         testBat.setSize();
-        assertEquals(4, testBat.size, "The expected size fo the bat was wrong");
+        assertEquals(4, testBat.size, "The expected size of the bat was wrong");
     }
     @Test
     public void testAge(){
         Bat testBat = new Bat();
         testBat.getAge();
         testBat.setAge();
-        assertEquals(4, testBat.age, "The expected age fo the bat was wrong");
+        assertEquals(4, testBat.age, "The expected age of the bat was wrong");
     }
 
     @Test
@@ -55,8 +56,9 @@ public class AnimalsTest {
         testBat.getSize();
         testBat.setSize();
         testBat.eat();
-        assertEquals(5, testBat.size, "The bat did not get bigger");
+        assertEquals(5, testBat.eat(), "The bat did not get bigger");
     }
+
 
 
 
