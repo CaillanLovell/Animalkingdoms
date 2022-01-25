@@ -1,6 +1,5 @@
-package Animalkingdom.test;
-import Animalkingdom.Bat;
-import org.junit.jupiter.api.Test;
+package com.tsi.Animalkingdom.test;
+import com.tsi.Animalkingdom.Bat;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
