@@ -9,7 +9,9 @@ public class AnimalsTest {
     @Test
     public void testSize(){
         Bat testBat = new Bat();
-        assertEquals(4, testBat.getSize(), "The expected size fo the bat was wrong");
+        testBat.getSize();
+        testBat.setSize();
+        assertEquals(4, testBat.size, "The expected size fo the bat was wrong");
     }
     @Test
     public void testAge(){
