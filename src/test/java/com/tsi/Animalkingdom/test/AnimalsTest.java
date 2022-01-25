@@ -20,6 +20,7 @@ public class AnimalsTest {
         testBat.setAge();
         assertEquals(4, testBat.age, "The expected age fo the bat was wrong");
     }
+
     @Test
     public void testPoo(){
         Bat testBat = new Bat();
@@ -42,14 +43,14 @@ public class AnimalsTest {
     }
 
     @Test
-    public void famousBat(){
+    public void testBat(){
         Bat testBat = new Bat();
         testBat.BatName();
         assertEquals("Vlad", testBat.BatName(), "The bat is not Vlad");
     }
 
     @Test
-    public void gainingSize(){
+    public void testSizegain(){
         Bat testBat = new Bat();
         testBat.getSize();
         testBat.setSize();
