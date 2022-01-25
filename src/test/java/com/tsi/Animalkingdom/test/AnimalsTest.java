@@ -40,6 +40,13 @@ public class AnimalsTest {
         assertEquals("Live birth", testBat.Reproduction(), "The bat does not excrete");
     }
 
+    @Test
+    public void famousBat(){
+        Bat testBat = new Bat();
+
+        assertEquals("Live birth", testBat.Reproduction(), "The bat does not excrete");
+    }
+
 
 
 }
