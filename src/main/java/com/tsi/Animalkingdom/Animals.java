@@ -19,24 +19,19 @@ public abstract class Animals {
         return "I excreted";
     }
 
-    public int getAge (){
-        return age;
+    public void getAge (){
     }
 
     public void setAge(){
-        this.age = age;
     }
 
-    public int getSize (){
-        return size;
+    public void getSize (){
     }
 
     public void setSize (){
-        this.size = size;
     }
 
     public int eat(){
-        int newsize = size +1 ;
-        return newsize;
+        return size +1;
     }
 }

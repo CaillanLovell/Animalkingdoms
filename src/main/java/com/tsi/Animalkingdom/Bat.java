@@ -5,7 +5,7 @@ public class Bat extends Mammal {
 
     }
 
-    public String Diet(String food) {
+    public String Diet() {
         return ("I like to suck blood!");
     }
 

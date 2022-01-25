@@ -1,7 +1,6 @@
 package com.tsi.Animalkingdom.test;
 import com.tsi.Animalkingdom.Animals;
 import com.tsi.Animalkingdom.Bat;
-import com.tsi.Animalkingdom.Main;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,14 +11,14 @@ public class AnimalsTest {
         Bat testBat = new Bat();
         testBat.getSize();
         testBat.setSize();
-        assertEquals(4, testBat.size, "The expected size of the bat was wrong");
+        assertEquals(4, Animals.size, "The expected size of the bat was wrong");
     }
     @Test
     public void testAge(){
         Bat testBat = new Bat();
         testBat.getAge();
         testBat.setAge();
-        assertEquals(4, testBat.age, "The expected age of the bat was wrong");
+        assertEquals(4, Animals.age, "The expected age of the bat was wrong");
     }
 
     @Test
@@ -32,8 +31,8 @@ public class AnimalsTest {
     @Test
     public void testDiet(){
         Bat testBat = new Bat();
-        testBat.Diet("");
-        assertEquals("I like to suck blood!", testBat.Diet("blood"), "The bat does not excrete");
+        testBat.Diet();
+        assertEquals("I like to suck blood!", testBat.Diet(), "The bat does not excrete");
     }
 
     @Test
