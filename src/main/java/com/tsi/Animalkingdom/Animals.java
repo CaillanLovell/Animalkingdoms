@@ -4,7 +4,7 @@ public abstract class Animals {
 
     ////////////////////Attributes////////////////////////
     public static int age = 4;
-    public static int size = 4 ;
+    public static int size = 4;
     String name;
 
 
@@ -13,7 +13,7 @@ public abstract class Animals {
 
     ////////////////////Methods///////////////////////////
 
-    public abstract void eat (String food);
+
 
 
     public String excretion(){

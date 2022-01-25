@@ -26,6 +26,20 @@ public class AnimalsTest {
         assertEquals("I excreted", testBat.excretion(), "The bat does not excrete");
     }
 
+    @Test
+    public void testDiet(){
+        Bat testBat = new Bat();
+        testBat.eat("");
+        assertEquals("I like to suck blood!", testBat.eat("blood"), "The bat does not excrete");
+    }
+
+    @Test
+    public void testBaby(){
+        Bat testBat = new Bat();
+        testBat.Reproduction();
+        assertEquals("Live birth", testBat.Reproduction(), "The bat does not excrete");
+    }
+
 
 
 }

@@ -5,18 +5,18 @@ public class Bat extends Mammal {
 
     }
 
-    public void eat(String food)
+    public String eat(String food)
     {
 
-        System.out.println("I like to suck blood!");
+        return ("I like to suck blood!");
     }
-
-    public void BatName()
-    {
-
-        System.out.println("My name is "+ name);
-    }
-
+//
+//    public void BatName()
+//    {
+//
+//        System.out.println("My name is "+ name);
+//    }
+//
     public String Reproduction(){
 
         return("Live birth");
